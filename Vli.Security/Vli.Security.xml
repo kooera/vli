@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vli.Security</name>
+    </assembly>
+    <members>
+        <member name="P:Vli.Security.Aes.Message">
+            <summary>
+            消息
+            </summary>
+        </member>
+        <member name="P:Vli.Security.Aes.ContainKey">
+            <summary>
+            True：密文中包含密钥
+            False：密文中不包含密钥
+            </summary>
+        </member>
+        <member name="M:Vli.Security.Aes.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Vli.Security.Aes.#ctor(System.Boolean)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="containKey"></param>
+        </member>
+        <member name="M:Vli.Security.Aes.Encrypt(System.String,System.String)">
+            <summary>
+            指定密钥对明文进行AES加密
+            </summary>
+            <param name="s_crypto">明文</param>
+            <param name="s_key">加密密钥</param>
+            <returns>密文</returns>
+        </member>
+        <member name="M:Vli.Security.Aes.Decrypt(System.String,System.String)">
+            <summary>
+            指定密钥，并对密文进行解密
+            </summary>
+            <param name="s_encrypted">密文</param>
+            <param name="s_key">密钥</param>
+            <returns>明文</returns>
+        </member>
+        <member name="M:Vli.Security.Aes.Encrypt(System.String)">
+            <summary>
+            动态生成密钥，并对明文进行AES加密
+            </summary>
+            <param name="s_crypto">明文</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vli.Security.Aes.Decrypt(System.String)">
+            <summary>
+            从密文中解析出密钥，并对密文进行解密
+            </summary>
+            <param name="s_encrypted">密文</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vli.Security.Md5.Encrypt(System.String)">
+            <summary>
+            MD5加密
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

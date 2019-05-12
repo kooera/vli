@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vli.Cache</name>
+    </assembly>
+    <members>
+        <member name="M:Vli.Cache.Memory.Exists(System.String)">
+            <summary>
+            验证缓存项是否存在
+            </summary>
+            <param name="key">缓存Key</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vli.Cache.Memory.Set(System.String,System.Object,System.TimeSpan,System.TimeSpan)">
+            <summary>
+            添加缓存
+            </summary>
+            <param name="key">缓存Key</param>
+            <param name="value">缓存Value</param>
+            <param name="expiresSliding">滑动过期时长（如果在过期时间内有操作，则以当前时间点延长过期时间）</param>
+            <param name="expiressAbsoulte">绝对过期时长</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vli.Cache.Memory.Set(System.String,System.Object,System.TimeSpan,System.Boolean)">
+            <summary>
+            添加缓存
+            </summary>
+            <param name="key">缓存Key</param>
+            <param name="value">缓存Value</param>
+            <param name="expiresIn">缓存时长</param>
+            <param name="isSliding">是否滑动过期（如果在过期时间内有操作，则以当前时间点延长过期时间）</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vli.Cache.Memory.Remove(System.String)">
+            <summary>
+            删除缓存
+            </summary>
+            <param name="key">缓存Key</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vli.Cache.Memory.RemoveAll(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            批量删除缓存
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vli.Cache.Memory.Get``1(System.String)">
+            <summary>
+            获取缓存
+            </summary>
+            <param name="key">缓存Key</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vli.Cache.Memory.Get(System.String)">
+            <summary>
+            获取缓存
+            </summary>
+            <param name="key">缓存Key</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vli.Cache.Memory.GetAll(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            获取缓存集合
+            </summary>
+            <param name="keys">缓存Key集合</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vli.Cache.Memory.RemoveCacheAll">
+            <summary>
+            删除所有缓存
+            </summary>
+        </member>
+        <member name="M:Vli.Cache.Memory.RemoveCacheRegex(System.String)">
+            <summary>
+            删除匹配到的缓存
+            </summary>
+            <param name="pattern"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vli.Cache.Memory.SearchCacheRegex(System.String)">
+            <summary>
+            搜索 匹配到的缓存
+            </summary>
+            <param name="pattern"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vli.Cache.Memory.GetCacheKeys">
+            <summary>
+            获取所有缓存键
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vli.Extension</name>
+    </assembly>
+    <members>
+        <member name="M:Vli.Extension.ObejctExt.ToModel``1(System.Object)">
+            <summary>
+            将对象转为model
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vli.Extension.ObejctExt.ToModel``1(System.String)">
+            <summary>
+            将json串转为model
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vli.Extension.ObejctExt.ToJson(System.Object)">
+            <summary>
+            转为Json数据
+            </summary>
+        </member>
+        <member name="M:Vli.Extension.StringExt.StringOfChar(System.String,System.Int32)">
+            <summary>
+            用指定字符生成指定长度的字符串
+            </summary>
+            <param name="str">指定字符</param>
+            <param name="length">指定长度</param>
+            <returns>字符串</returns>
+        </member>
+    </members>
+</doc>

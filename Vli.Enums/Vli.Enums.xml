@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vli.Enums</name>
+    </assembly>
+    <members>
+        <member name="F:Vli.Enums.Week.Monday">
+            <summary>
+            星期一
+            </summary>
+        </member>
+        <member name="F:Vli.Enums.Week.Tuesday">
+            <summary>
+            星期二
+            </summary>
+        </member>
+        <member name="F:Vli.Enums.Week.Wednesday">
+            <summary>
+            星期三
+            </summary>
+        </member>
+        <member name="F:Vli.Enums.Week.Thursday">
+            <summary>
+            星期四
+            </summary>
+        </member>
+        <member name="F:Vli.Enums.Week.Friday">
+            <summary>
+            星期五
+            </summary>
+        </member>
+        <member name="F:Vli.Enums.Week.Saturday">
+            <summary>
+            星期六
+            </summary>
+        </member>
+        <member name="F:Vli.Enums.Week.Sunday">
+            <summary>
+            星期日
+            </summary>
+        </member>
+    </members>
+</doc>

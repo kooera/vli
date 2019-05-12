@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vli.UI</name>
+    </assembly>
+    <members>
+        <member name="P:Vli.UI.Lay.BaseTag.Title">
+            <summary>
+            标题，显示于标签前面
+            </summary>
+        </member>
+        <member name="P:Vli.UI.Lay.BaseTag.Hint">
+            <summary>
+            提示信息，鼠标移过标签显示
+            </summary>
+        </member>
+        <member name="P:Vli.UI.Lay.BaseTag.For">
+            <summary>
+            绑定属性
+            </summary>
+        </member>
+        <member name="P:Vli.UI.Lay.BaseTag.Description">
+            <summary>
+            描述信息，位于标签后面
+            </summary>
+        </member>
+        <member name="P:Vli.UI.Lay.BaseTag.WidgetLabel">
+            <summary>
+            控件Label标签
+            </summary>
+        </member>
+        <member name="P:Vli.UI.Lay.BaseTag.WidgetRoot">
+            <summary>
+            控件直系父标签
+            </summary>
+        </member>
+        <member name="P:Vli.UI.Lay.BaseTag.WidgetSpan">
+            <summary>
+            控件提示标签
+            </summary>
+        </member>
+        <member name="P:Vli.UI.Lay.BaseTag.WidgetOutput">
+            <summary>
+            输出标签
+            </summary>
+        </member>
+        <member name="P:Vli.UI.Lay.BaseTag.ViewContext">
+            <summary>
+            视图内容
+            </summary>
+        </member>
+        <member name="T:Vli.UI.Lay.CheckBox">
+            <summary>
+            复选框
+            </summary>
+        </member>
+        <member name="T:Vli.UI.Lay.DropDownList">
+            <summary>
+            下拉选择
+            </summary>
+        </member>
+        <member name="P:Vli.UI.Lay.DropDownList.SelectLists">
+            <summary>
+            数据源
+            </summary>
+        </member>
+        <member name="M:Vli.UI.Lay.Switch.Process(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext,Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput)">
+            <summary>
+            业务处理
+            </summary>
+            <param name="context"></param>
+            <param name="output"></param>
+        </member>
+    </members>
+</doc>

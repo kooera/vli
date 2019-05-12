@@ -1,0 +1,413 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vli.Entity</name>
+    </assembly>
+    <members>
+        <member name="P:Vli.Entity.PO.AccessRecord.IP">
+            <summary>
+            IP地址
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.Country">
+            <summary>
+            所属国家
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.CountryCode">
+            <summary>
+            所属国家编码
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.Region">
+            <summary>
+            国际区号
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.RegionName">
+            <summary>
+            区域名称
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.City">
+            <summary>
+            城市
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.Zip">
+            <summary>
+            邮编
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.Lat">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.Lon">
+            <summary>
+            维度
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.Timezone">
+            <summary>
+            时区
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.ISP">
+            <summary>
+            运营商
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.ORG">
+            <summary>
+            组织名称
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.AS">
+            <summary>
+            路由区域
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.Reverse">
+            <summary>
+            ip映射域名
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.Mobile">
+            <summary>
+            是否手机访问
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.Proxy">
+            <summary>
+            是否代理
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.Query">
+            <summary>
+            查询IP
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.Message">
+            <summary>
+            信息
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.Browser">
+            <summary>
+            浏览器名称
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.Version">
+            <summary>
+            浏览器版本
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.LayoutEngine">
+            <summary>
+            浏览器内核
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.Platform">
+            <summary>
+            访问平台
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.UserAgent">
+            <summary>
+            浏览器代理
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.UserLanguages">
+            <summary>
+            用户语言
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.HttpMethod">
+            <summary>
+            访问方式
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.AccessFrom">
+            <summary>
+            访问来源地址
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.AccessRecord.AccessTo">
+            <summary>
+            被访问的地址
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.BaseEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.BaseEntity.CreateId">
+            <summary>
+            创建人ID
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.BaseEntity.UpdateTime">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.BaseEntity.UpdateId">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.GBDistrictCode.ParentId">
+            <summary>
+            上级ID
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.GBIndustry.ParentId">
+            <summary>
+            上级ID
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemGroup.IsActive">
+            <summary>
+            是否激活
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemGroup.GropuName">
+            <summary>
+            组名称
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemGroup.ParentId">
+            <summary>
+            父级
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemGroup.Desc">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemLog.Thread">
+            <summary>
+            线程
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemLog.Level">
+            <summary>
+            消息等级
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemLog.Logger">
+            <summary>
+            配置项
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemLog.Message">
+            <summary>
+            默认消息
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemLog.Exception">
+            <summary>
+            异常详细
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemLog.Operator">
+            <summary>
+            记录者
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemNavigation.ParentId">
+            <summary>
+            父级ID
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemNavigation.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemNavigation.SimpleName">
+            <summary>
+            简称
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemNavigation.Code">
+            <summary>
+            唯一编码
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemNavigation.Url">
+            <summary>
+            链接地址
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemNavigation.ControllerName">
+            <summary>
+            控制器
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemNavigation.ActionName">
+            <summary>
+            Action
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemNavigation.ChannelId">
+            <summary>
+            频道ID
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemNavigation.IsSystem">
+            <summary>
+            是否系统预设
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemNavigation.IsActive">
+            <summary>
+            是否激活
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemNavigation.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemNavigation.IsInnerSite">
+            <summary>
+            是否站内
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemNavigation.IconUrl">
+            <summary>
+            链接图标
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemNavigation.Target">
+            <summary>
+            目标
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemNavigation.Parameter">
+            <summary>
+            参数
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemNavigation.CreateIP">
+            <summary>
+            创建IP
+            </summary> 
+        </member>
+        <member name="P:Vli.Entity.PO.SystemNavigation.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemNavigation.Layer">
+            <summary>
+            层级
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemParameter.Type">
+            <summary>
+            参数类型
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemParameter.Keyword">
+            <summary>
+            关键字
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemParameter.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemParameter.IsActive">
+            <summary>
+            是否激活
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemParameter.Desc">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemPermission.IsActive">
+            <summary>
+            是否激活
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemPermission.GrantType">
+            <summary>
+            授权类型
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemPermission.GrantItem">
+            <summary>
+            授权项
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemPermission.Desc">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemRight.ParentId">
+            <summary>
+            上级ID
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemRight.GrantType">
+            <summary>
+            授权类型
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemRight.GrantItem">
+            <summary>
+            授权项
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemRight.Desc">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemRight.IsActive">
+            <summary>
+            是否激活
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemRole.ParentId">
+            <summary>
+            上级ID
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemRole.RoleName">
+            <summary>
+            角色名称
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemRole.IsActive">
+            <summary>
+            是否激活
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemRole.Desc">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:Vli.Entity.PO.SystemUser.IsActive">
+            <summary>
+            是否激活
+            </summary>
+        </member>
+    </members>
+</doc>
