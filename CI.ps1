@@ -59,7 +59,7 @@ else
 {
     echo "删除旧包..."
     Remove-Item "$output_path\*" -include *.nupkg
-    dotnet pack $sln_path -o=D:\nuget\local -c Release /p:PackageVersion=$max_version ;
+    dotnet pack $sln_path -o="$output_path" -c Release /p:PackageVersion=$max_version ;
 }
 
 $packages_up = Get-ChildItem -Path "$output_path" -Filter *.nupkg -Recurse;
