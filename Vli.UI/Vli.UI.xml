@@ -54,6 +54,11 @@
             复选框
             </summary>
         </member>
+        <member name="P:Vli.UI.Lay.CheckBox.UseLay">
+            <summary>
+            是否使用Layui样式
+            </summary>
+        </member>
         <member name="T:Vli.UI.Lay.DropDownList">
             <summary>
             下拉选择
@@ -70,6 +75,64 @@
             </summary>
             <param name="context"></param>
             <param name="output"></param>
+        </member>
+        <member name="T:Vli.UI.Lay.TextBox">
+            <summary>
+            文本框标签
+            </summary>
+        </member>
+        <member name="P:Vli.UI.Lay.TextBox.IsTextArea">
+            <summary>
+            是否为textarea
+            </summary>
+        </member>
+        <member name="P:Vli.UI.Lay.TextBox.IsTagEdit">
+            <summary>
+            是否为tagedit标签
+            </summary>
+        </member>
+        <member name="P:Vli.UI.Lay.TextBox.SourceUrl">
+            <summary>
+            tagedit 数据源 url
+            </summary>
+        </member>
+        <member name="M:Vli.UI.Lay.TextBox.#ctor(Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator,Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="generator"></param>
+        </member>
+        <member name="M:Vli.UI.Lay.TextBox.Process(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext,Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput)">
+            <summary>
+            处理逻辑
+            </summary>
+            <param name="context"></param>
+            <param name="output"></param>
+        </member>
+        <member name="T:Vli.UI.Lay.Upload">
+            <summary>
+            上传控件
+            </summary>
+        </member>
+        <member name="P:Vli.UI.Lay.Upload.ShowIconBtn">
+            <summary>
+            是否显示按钮icon
+            </summary>
+        </member>
+        <member name="P:Vli.UI.Lay.Upload.DefaultIcon">
+            <summary>
+            默认icon按钮
+            </summary>
+        </member>
+        <member name="P:Vli.UI.Lay.Upload.ButtonSkin">
+            <summary>
+            按钮皮肤
+            </summary>
+        </member>
+        <member name="P:Vli.UI.Lay.Upload.HandleUrl">
+            <summary>
+            上传处理url
+            </summary>
         </member>
     </members>
 </doc>
