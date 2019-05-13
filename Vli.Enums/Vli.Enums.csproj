@@ -12,7 +12,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>.\Vli.Enums\Vli.Enums.xml</DocumentationFile>
+    <DocumentationFile>.\Vli.Enums.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>

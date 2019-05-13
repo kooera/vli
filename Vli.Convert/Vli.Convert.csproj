@@ -14,7 +14,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>.\Vli.Convert\Vli.Convert.xml</DocumentationFile>
+    <DocumentationFile>.\Vli.Convert.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>

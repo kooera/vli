@@ -22,6 +22,9 @@ namespace Vli.UI.Lay
     [HtmlTargetElement("cbk")]
     public class CheckBox : BaseTag
     {
+        /// <summary>
+        /// 是否使用Layui样式
+        /// </summary>
         [HtmlAttributeName("vi-use-lay")]
         public bool UseLay { set; get; }
 
