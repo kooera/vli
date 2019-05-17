@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vli.Helper", "Vli.Helper\Vl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vli.Enums", "Vli.Enums\Vli.Enums.csproj", "{3C372F95-5801-4114-8552-194E7A3F6F51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vli.Cache", "Vli.Cache\Vli.Cache.csproj", "{10721A43-38DC-4570-975C-FE198D540807}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vli.Cache", "Vli.Cache\Vli.Cache.csproj", "{10721A43-38DC-4570-975C-FE198D540807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vli.UI", "Vli.UI\Vli.UI.csproj", "{AB32F35C-4B7A-4114-BEBE-F3CDAC81975D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vli.UI", "Vli.UI\Vli.UI.csproj", "{AB32F35C-4B7A-4114-BEBE-F3CDAC81975D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vli.DataContext", "Vli.DataContext\Vli.DataContext.csproj", "{D16C30DE-8763-47DD-877A-A1C5EF8E4847}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{AB32F35C-4B7A-4114-BEBE-F3CDAC81975D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB32F35C-4B7A-4114-BEBE-F3CDAC81975D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB32F35C-4B7A-4114-BEBE-F3CDAC81975D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16C30DE-8763-47DD-877A-A1C5EF8E4847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16C30DE-8763-47DD-877A-A1C5EF8E4847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16C30DE-8763-47DD-877A-A1C5EF8E4847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16C30DE-8763-47DD-877A-A1C5EF8E4847}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
