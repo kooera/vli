@@ -21,36 +21,36 @@ namespace Vli.DataContext
 
         }
 
-        public DbSet<AccessRecord> AccessRecords { get; set; }
+        public DbSet<AccessRecord> AccessRecord { get; set; }
 
-        public DbSet<SystemGroup> SystemGroups { get; set; }
+        public DbSet<SystemGroup> SystemGroup { get; set; }
 
-        public DbSet<SystemLog> SystemLogs { get; set; }
+        public DbSet<SystemLog> SystemLog { get; set; }
 
-        public DbSet<SystemNavigation> SystemNavigations { get; set; }
+        public DbSet<SystemNavigation> SystemNavigation { get; set; }
 
-        public DbSet<SystemParameter> SystemParameters { get; set; }
+        public DbSet<SystemParameter> SystemParameter { get; set; }
 
-        public DbSet<SystemPermission> SystemPermissions { get; set; }
+        public DbSet<SystemPermission> SystemPermission { get; set; }
 
-        public DbSet<SystemRight> SystemRights { get; set; }
+        public DbSet<SystemRight> SystemRight { get; set; }
 
-        public DbSet<SystemRole> SystemRoles { get; set; }
+        public DbSet<SystemRole> SystemRole { get; set; }
 
-        public DbSet<SystemUser> SystemUsers { get; set; }
+        public DbSet<SystemUser> SystemUser { get; set; }
 
-        public DbSet<UserGroup> UserGroups { get; set; }
+        public DbSet<UserGroup> UserGroup { get; set; }
 
-        public DbSet<UserRight> UserRights { get; set; }
+        public DbSet<UserRight> UserRight { get; set; }
 
-        public DbSet<UserRole> UserRoles { get; set; }
+        public DbSet<UserRole> UserRole { get; set; }
 
-        public DbSet<RoleRight> RoleRights { get; set; }
+        public DbSet<RoleRight> RoleRight { get; set; }
 
-        public DbSet<GroupRight> GroupRights { get; set; }
+        public DbSet<GroupRight> GroupRight { get; set; }
 
-        public DbSet<GBDistrictCode> GBDistrictCodes { get; set; }
+        public DbSet<GBDistrictCode> GBDistrictCode { get; set; }
 
-        public DbSet<GBIndustry> GBIndustries { get; set; }
+        public DbSet<GBIndustry> GBIndustrie { get; set; }
     }
 }
