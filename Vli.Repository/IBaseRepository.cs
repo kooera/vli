@@ -20,13 +20,13 @@
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        bool DeleteById(int id);
+        bool DeleteById(long id);
 
         /// <summary>
         /// 获取单条数据
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        T GetEntityById(int id);
+        T GetEntityById(long id);
     }
 }
