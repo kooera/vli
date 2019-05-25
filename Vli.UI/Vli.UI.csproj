@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Vli.Extension\Vli.Extension.csproj" />
+    <ProjectReference Include="..\Vli.Static\Vli.Static.csproj" />
   </ItemGroup>
 
 </Project>
