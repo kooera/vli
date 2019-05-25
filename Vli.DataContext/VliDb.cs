@@ -52,5 +52,7 @@ namespace Vli.DataContext
         public DbSet<GBDistrictCode> GBDistrictCode { get; set; }
 
         public DbSet<GBIndustry> GBIndustrie { get; set; }
+
+        public DbSet<Navigation> Navigation { set; get; }
     }
 }
