@@ -19,7 +19,7 @@ namespace Vli.Entity.PO
         /// <summary>
         /// 父级ID
         /// </summary>
-        public int IdParent { get; set; }
+        public long IdParent { get; set; }
 
         /// <summary>
         /// 名称
