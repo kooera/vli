@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vli.Cache", "Vli.Cache\Vli.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vli.UI", "Vli.UI\Vli.UI.csproj", "{AB32F35C-4B7A-4114-BEBE-F3CDAC81975D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vli.DataContext", "Vli.DataContext\Vli.DataContext.csproj", "{D16C30DE-8763-47DD-877A-A1C5EF8E4847}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vli.DataContext", "Vli.DataContext\Vli.DataContext.csproj", "{D16C30DE-8763-47DD-877A-A1C5EF8E4847}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vli.Repository", "Vli.Repository\Vli.Repository.csproj", "{0D745823-5B14-41BF-8854-70CDF3BD7C15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vli.Repository", "Vli.Repository\Vli.Repository.csproj", "{0D745823-5B14-41BF-8854-70CDF3BD7C15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vli.Core", "Vli.Core\Vli.Core.csproj", "{094C73E6-08B6-4F7F-9807-5E3F7E4B1C6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{0D745823-5B14-41BF-8854-70CDF3BD7C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D745823-5B14-41BF-8854-70CDF3BD7C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D745823-5B14-41BF-8854-70CDF3BD7C15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{094C73E6-08B6-4F7F-9807-5E3F7E4B1C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{094C73E6-08B6-4F7F-9807-5E3F7E4B1C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{094C73E6-08B6-4F7F-9807-5E3F7E4B1C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{094C73E6-08B6-4F7F-9807-5E3F7E4B1C6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
