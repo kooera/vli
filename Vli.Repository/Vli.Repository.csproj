@@ -14,4 +14,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DocumentationFile>.\Vli.Repository.xml</DocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vli.Entity\Vli.Entity.csproj" />
+  </ItemGroup>
 </Project>
