@@ -15,5 +15,28 @@ namespace Vli.Entity.VO
     public sealed class UserInfo
     {
         public long Id { get; set; }
+
+        public string Name { get; set; }
+
+        public string Pwd { get; set; }
+
+        public string RealName { get; set; }
+
+        public string Email { get; set; }
+
+        public string Phone { get; set; }
+
+        public string Avatar { get; set; }
+
+        public bool IsLock { get; set; }
+
+        public bool IsActive { get; set; }
+
+        /// <summary>
+        /// 返回地址
+        /// </summary>
+        public string ReturnUrl { get; set; }
+
+        public string AuthenticationType { get; set; }
     }
 }
