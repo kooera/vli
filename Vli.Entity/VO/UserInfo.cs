@@ -1,4 +1,8 @@
-﻿/**
+﻿
+
+
+using System.Security.Principal;
+/**
 *
 * 功 能： N/A
 * 类 名： UserInfo
@@ -8,11 +12,9 @@
 * 版 权： Copyright (c) 2019 Mainki. All rights reserved.
 *
 */
-
-
 namespace Vli.Entity.VO
 {
-    public sealed class UserInfo
+    public sealed class UserInfo: IIdentity
     {
         public long Id { get; set; }
 
@@ -38,5 +40,7 @@ namespace Vli.Entity.VO
         public string ReturnUrl { get; set; }
 
         public string AuthenticationType { get; set; }
+
+        public bool IsAuthenticated { get; set; }
     }
 }
