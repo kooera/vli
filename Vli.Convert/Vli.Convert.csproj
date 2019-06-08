@@ -17,4 +17,8 @@
     <DocumentationFile>.\Vli.Convert.xml</DocumentationFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Vli.Extension\Vli.Extension.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -18,6 +18,9 @@ using Microsoft.AspNetCore.Razor.TagHelpers;
 
 namespace Vli.UI.Lay
 {
+    /// <summary>
+    /// 开关形式的复选框
+    /// </summary>
     [HtmlTargetElement("swi")]
     public class Switch : BaseTag
     {
