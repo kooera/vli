@@ -64,5 +64,24 @@ namespace Vli.Helper
         {
             return Directory.Exists(directoryPath);
         }
+
+
+        #region 写文件
+
+        public static void WriteFile(string Path, string Strings)
+        {
+            if (!File.Exists(Path))
+            {
+                FileStream f = File.Create(Path);
+                f.Close();
+                f.Dispose();
+            }
+            StreamWriter f2 = new StreamWriter(Path, true, System.Text.Encoding.UTF8);
+            f2.WriteLine(Strings);
+            f2.Close();
+            f2.Dispose();
+        }
+
+        #endregion
     }
 }
