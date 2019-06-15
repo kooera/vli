@@ -65,6 +65,15 @@ namespace Vli.Helper
             return Directory.Exists(directoryPath);
         }
 
+        public static string CreateDirectory(string path)
+        {
+            if (!Directory.Exists(path))
+            {
+                Directory.CreateDirectory(path);
+            }
+            return path;
+        }
+
 
         #region 写文件
 

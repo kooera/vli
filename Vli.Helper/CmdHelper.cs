@@ -22,7 +22,8 @@ namespace Vli.Helper
 
         public CmdHelper()
         {
-            logName = DateTime.Now.ToString("yyyyMMddhhmmssfffff") + ".log";
+            string dir = Environment.CurrentDirectory + "\\cmdLog\\";
+            logName = DirFileHelper.CreateDirectory(dir) + DateTime.Now.ToString("yyyyMMddhhmmssfffff") + ".log";
             proc = new Process();
         }
 
