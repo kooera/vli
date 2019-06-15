@@ -13,6 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Vli.Entity\Vli.Entity.csproj" />
+    <ProjectReference Include="..\Vli.Extension\Vli.Extension.csproj" />
     <ProjectReference Include="..\Vli.Helper\Vli.Helper.csproj" />
   </ItemGroup>
 

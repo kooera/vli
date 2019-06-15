@@ -3,6 +3,8 @@
 
 using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
+using System.Reflection;
 /**
 *
 * 功 能： N/A
@@ -68,5 +70,27 @@ namespace Vli.Extension
             }
         }
 
+        /// <summary>
+        /// 获取实体键值对
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
+        public static Dictionary<object, object> GetProperties(this object obj)
+        {
+            var result = new Dictionary<object, object>();
+            if (obj == null) { return null; }
+            PropertyInfo[] properties = obj.GetType().GetProperties(BindingFlags.Instance | BindingFlags.Public);
+            if (properties.Length <= 0) { return null; }
+            foreach (PropertyInfo item in properties)
+            {
+                string name = item.Name;
+                object value = item.GetValue(obj, null);
+                if (item.PropertyType.IsValueType || item.PropertyType.Name.StartsWith("String"))
+                {
+                    result.Add(name, value);
+                }
+            }
+            return result;
+        }
     }
 }
