@@ -54,5 +54,19 @@ namespace Vli.DataContext
         public DbSet<GBIndustry> GBIndustrie { get; set; }
 
         public DbSet<Navigation> Navigation { set; get; }
+
+        public DbSet<Article> Article { set; get; }
+
+        public DbSet<ArticleCategory> ArticleCategory { set; get; }
+
+        public DbSet<ArticleComment> ArticleComment { set; get; }
+
+        public DbSet<ArticleExtend> ArticleExtend { set; get; }
+
+        public DbSet<ArticlePhoto> ArticlePhoto { set; get; }
+
+        public DbSet<ArticleRelation> ArticleRelation { set; get; }
+
+        public DbSet<ArticleTag> ArticleTag { set; get; }
     }
 }
