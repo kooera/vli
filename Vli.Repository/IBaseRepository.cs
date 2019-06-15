@@ -1,4 +1,6 @@
-﻿namespace Vli.Repository
+﻿using System.Threading.Tasks;
+
+namespace Vli.Repository
 {
     public interface IBaseRepository<T> where T : class
     {
@@ -28,5 +30,14 @@
         /// <param name="id"></param>
         /// <returns></returns>
         T GetEntityById(long id);
+
+        /// <summary>
+        /// 根据实体条件查找数据
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
+        T Find(object obj);
+
+        Task<T> UpdateAsync(T entity);
     }
 }
