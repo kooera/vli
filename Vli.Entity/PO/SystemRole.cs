@@ -9,14 +9,11 @@
 *
 */
 
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
 
 namespace Vli.Entity.PO
 {
-  public sealed  class SystemRole:BaseEntity
+    public sealed class SystemRole : BaseEntity
     {
         public SystemRole()
         {
