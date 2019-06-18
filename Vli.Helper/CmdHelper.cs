@@ -23,7 +23,25 @@ namespace Vli.Helper
         public CmdHelper()
         {
             string dir = Environment.CurrentDirectory + "\\cmdLog\\";
+            if (!dir.EndsWith("\\"))
+            {
+                dir = dir + "\\";
+            }
             logName = DirFileHelper.CreateDirectory(dir) + DateTime.Now.ToString("yyyyMMddhhmmssfffff") + ".log";
+            proc = new Process();
+        }
+
+        public CmdHelper(string logPath)
+        {
+            if (logPath.EndsWith("\\"))
+            {
+                logName = DirFileHelper.CreateDirectory(logPath) + DateTime.Now.ToString("yyyyMMddhhmmssfffff") + ".log";
+            }
+            else
+            {
+                logName = DirFileHelper.CreateDirectory(logPath) + "\\" + DateTime.Now.ToString("yyyyMMddhhmmssfffff") + ".log";
+            }
+
             proc = new Process();
         }
 
