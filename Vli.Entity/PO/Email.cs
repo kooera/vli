@@ -9,6 +9,7 @@
 *
 */
 
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Vli.Entity.PO
@@ -59,7 +60,7 @@ namespace Vli.Entity.PO
         /// <summary>
         /// 附件列表
         /// </summary>
-        public string Attachments { get; set; }
+        public List<string> Attachments { get; set; }
 
         /// <summary>
         /// 正文是否为Html

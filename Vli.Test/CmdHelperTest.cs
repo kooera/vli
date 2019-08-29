@@ -21,6 +21,7 @@ namespace Vli.Test
         [TestMethod]
         public void ExecuteTest()
         {
+
             CmdHelper cmd = new CmdHelper(@"E:\Code-CSharp\Log");
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.Append("E: \n");

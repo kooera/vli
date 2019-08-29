@@ -94,7 +94,7 @@ namespace Vli.Helper
 
         public void ExecuteTask(string cmd)
         {
-            Task ts = new Task(() => Execute(cmd));
+            Task ts = new Task(() => Execute(cmd));            
             ts.Start();
         }
 
