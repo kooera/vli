@@ -68,5 +68,7 @@ namespace Vli.DataContext
         public DbSet<ArticleRelation> ArticleRelation { set; get; }
 
         public DbSet<ArticleTag> ArticleTag { set; get; }
+
+        public DbSet<Cnaps> Cnaps { set; get; }
     }
 }

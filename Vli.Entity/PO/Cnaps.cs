@@ -9,13 +9,10 @@
 *
 */
 
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Vli.Entity.PO
 {
-  public  class Cnaps:BaseEntity
+    public class Cnaps : BaseEntity
     {
         /// <summary>
         /// 省
