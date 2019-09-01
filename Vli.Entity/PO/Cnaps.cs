@@ -17,56 +17,56 @@ namespace Vli.Entity.PO
         /// <summary>
         /// 省
         /// </summary>
-        public string Province;
+        public string Province { get; set; }
 
         /// <summary>
         /// 市
         /// </summary>
-        public string City;
+        public string City { get; set; }
 
         /// <summary>
         /// 区
         /// </summary>
-        public string District;
+        public string District { get; set; }
 
         /// <summary>
         /// 街道
         /// </summary>
-        public string Street;
+        public string Street { get; set; }
 
         /// <summary>
         /// 详细地址
         /// </summary>
-        public string Address;
+        public string Address { get; set; }
 
         /// <summary>
         /// 银行名称
         /// </summary>
-        public string BankName;
+        public string BankName { get; set; }
 
         /// <summary>
         /// 支行名称
         /// </summary>
-        public string BranchName;
+        public string BranchName { get; set; }
 
         /// <summary>
         /// 联行号
         /// </summary>
-        public string Number;
+        public string Number { get; set; }
 
         /// <summary>
         /// 电话
         /// </summary>
-        public string Phone;
+        public string Phone { get; set; }
 
         /// <summary>
         /// 经度
         /// </summary>
-        public string Lat;
+        public string Lat { get; set; }
 
         /// <summary>
         /// 纬度
         /// </summary>
-        public string Lng;
+        public string Lng { get; set; }
     }
 }
