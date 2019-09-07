@@ -38,7 +38,7 @@ namespace Vli.Helper
             StreamWriter requestStream = null;
             WebResponse response = null;
             string responseStr = null;
-
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             try
             {
                 requestStream = new StreamWriter(request.GetRequestStream());
@@ -83,7 +83,7 @@ namespace Vli.Helper
 
             WebResponse response = null;
             string responseStr = null;
-
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             try
             {
                 response = request.GetResponse();
