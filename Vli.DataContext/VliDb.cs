@@ -70,5 +70,7 @@ namespace Vli.DataContext
         public DbSet<ArticleTag> ArticleTag { set; get; }
 
         public DbSet<Cnaps> Cnaps { set; get; }
+
+        public DbSet<GBAddress> GBAddress { set; get; }
     }
 }

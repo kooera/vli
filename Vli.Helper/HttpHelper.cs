@@ -26,7 +26,7 @@ namespace Vli.Helper
         /// <param name="url">URL.</param>
         /// <param name="param">POST的数据</param>
         /// <returns></returns>
-        public static string HttpPost(string url, string param)
+        public static string HttpPost(string url, string param, Encoding encoding = null)
         {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             request.Method = "POST";
@@ -48,7 +48,7 @@ namespace Vli.Helper
                 response = request.GetResponse();
                 if (response != null)
                 {
-                    StreamReader reader = new StreamReader(response.GetResponseStream(), Encoding.UTF8);
+                    StreamReader reader = new StreamReader(response.GetResponseStream(), encoding ?? Encoding.UTF8);
                     responseStr = reader.ReadToEnd();
                     reader.Close();
                 }
@@ -72,7 +72,7 @@ namespace Vli.Helper
         /// </summary>
         /// <param name="url">URL.</param>
         /// <returns></returns>
-        public static string HttpGet(string url)
+        public static string HttpGet(string url, Encoding encoding = null)
         {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             request.Method = "GET";
@@ -90,7 +90,7 @@ namespace Vli.Helper
 
                 if (response != null)
                 {
-                    StreamReader reader = new StreamReader(response.GetResponseStream(), Encoding.UTF8);
+                    StreamReader reader = new StreamReader(response.GetResponseStream(), encoding ?? Encoding.UTF8);
                     responseStr = reader.ReadToEnd();
                     reader.Close();
                 }
